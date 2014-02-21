@@ -1,1 +1,0 @@
-This laravle project is for Matchcode doing LandingPage.
