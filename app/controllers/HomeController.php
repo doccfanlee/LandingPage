@@ -4,7 +4,7 @@ class HomeController extends BaseController {
 
 	public function showWelcome()
 	{
-		return View::make('landingPage');
+		return View::make('index');
 	}
 
 	public function haoInsert()

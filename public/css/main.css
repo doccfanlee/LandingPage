@@ -1,0 +1,190 @@
+/* registration form */
+body,
+html {
+  height: 100%;
+  padding-top: 10px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url('../img/bkg-gradient.png');
+  background-repeat: repeat-x;
+  background-color: #CFCFCF;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+.boxpad {
+  padding: 10px 20px;
+}
+.padtop {
+  padding-top: 20px;
+}
+#container {
+  min-height: 100%;
+  background-image: url('../img/bkg-lines.png');
+  background-repeat: repeat-x;
+}
+#logo-bar .partner-logo {
+  margin-left: 0;
+}
+#logo-bar .main-logo-subtitle {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.container {
+  margin-bottom: 10px;
+}
+.container.light {
+  background-color: #ffffff;
+}
+.container.footer {
+  background-color: #2d2d2d;
+  margin-bottom: 10px;
+}
+.container.footer li a {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+.gold-bar-top {
+  border-top: 8px solid #efab00;
+}
+.gold-bar-bottom {
+  border-bottom: 8px solid #efab00;
+}
+.grey {
+  background-color: #e5e5e5;
+}
+span.required {
+  color: #C00;
+  font-weight: bold;
+}
+.address {
+  border-top: 3px solid black;
+  color: #555;
+}
+.address li,
+.address a {
+  color: #555;
+  font-size: 14px;
+  font-weight: bold;
+}
+.address li {
+  border-bottom: 1px solid #555;
+  padding: 10px 0;
+}
+#offer-table {
+  border-top: solid 5px #414042;
+  border-bottom: solid 2px #414042;
+  background: #F7F7F7;
+  padding: 20px 0 30px 15px;
+}
+.btn.btn-primary span.chevron {
+  margin-left: 10px;
+}
+.force-height {
+  min-height: 160px;
+}
+h1.title {
+  color: #0e84a7;
+  font-size: 71px;
+  font-style: italic;
+  line-height: 70px;
+  padding: 0;
+  margin: 0;
+}
+.subtitle {
+  color: #0e84a7;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1;
+}
+h2.herosubheaing {
+  color: #fcb712;
+  font-size: 14px;
+  line-height: 32px;
+  padding-top: 20px;
+}
+h3 {
+  font-size: 15px;
+}
+h4 {
+  font-size: 12px;
+  line-height: 13px;
+  padding: 0;
+  padding-bottom: 5px;
+}
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+.striped-bg {
+  padding: 15px 0 0 0;
+  background: url(../img/bkg-gray-hash-repeat.png);
+}
+/* registration form */
+.eventdetails {
+  padding-top: 0;
+}
+#registration-form label {
+  font-weight: bold;
+}
+#registration-form input[type="text"],
+#registration-form input[type="password"],
+#registration-form input[type="radio"],
+#registration-form input[type="checkbox"] {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 4px 6px 3px 6px;
+}
+#registration-form .striped-bg {
+  padding-bottom: 20px;
+}
+@media (max-width: 480px) {
+  .form-horizontal .controls {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 767px) {
+  input[type="text"],
+  input[type="password"],
+  input[type="radio"],
+  input[type="checkbox"] {
+    width: 77%;
+  }
+  select {
+    width: 80%;
+  }
+  .form-horizontal .control-label {
+    float: auto;
+    width: auto;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .eventdetails {
+    padding-top: 20px;
+  }
+  .saplogo-container {
+    text-align: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  .form-horizontal .control-label {
+    float: left;
+    width: 103px;
+    padding-top: 5px;
+    text-align: right;
+    padding-right: 5px;
+  }
+  .form-horizontal .controls {
+    margin-left: 0;
+  }
+}
